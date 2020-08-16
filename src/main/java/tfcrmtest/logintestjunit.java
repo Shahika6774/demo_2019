@@ -26,6 +26,7 @@ public class logintestjunit {
 			
 	} 
 		
+	
          @Test
 		public  void logintoapp()  {
 		
@@ -35,7 +36,7 @@ public class logintestjunit {
 		
 		driver.findElement(By.name("login")).click();
 		
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		
 	}
          
         
@@ -46,6 +47,8 @@ public class logintestjunit {
 		
 }
 	
-
+         public void Bns() {
+     		System.out.println("This is super keyword");
+     	}
 
                      }
