@@ -49,6 +49,9 @@ public class logintestjunit {
 	
          public void Bns() {
      		System.out.println("This is super keyword");
+     		
+     		System.out.println("This is super keyword");
+     		System.out.println("This is super keyword");
      	}
 
                      }
